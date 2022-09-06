@@ -1,0 +1,40 @@
+/* Font */
+
+@font-face {
+    font-family: "Outfit";
+    src: url("/fonts/static/Outfit-Light.ttf") format("TrueType");
+}
+
+/* Background-color */
+
+html {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  Body Content */
+
+body {
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted black;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    
+}
+
+body h3 {
+    font-family: "Outfit";
+}
+
+.pict {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
